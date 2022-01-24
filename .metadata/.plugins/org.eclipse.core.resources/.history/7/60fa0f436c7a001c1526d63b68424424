@@ -1,0 +1,60 @@
+package com_bajaj_helloworld;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Vector;
+
+class Employees
+{
+	@Override
+	public String toString() {
+		return "Employees [id=" + id + "]";
+	}
+
+	public Employees(int id,String name) {
+		super();
+		this.id = id;
+		this.name=name;
+	}
+
+	int id;
+	String name;
+}
+
+public class MyCollection {
+	public static void main(String args[])
+	{
+		
+		List<Employees> ls= new ArrayList<Employees>();
+		
+		ls.add(new Employees(10,"A"));
+		ls.add(new Employees(61,"B"));
+		ls.add(new Employees(35,"C"));
+		ls.add(new Employees(-10,"D"));
+		
+		/*
+		List<String> ls=new ArrayList<String>();
+		//list<String> ls=new LinkedList<String>();
+		ls.add("Prince");
+		ls.add("Arince");
+		ls.add("Vrince");
+		ls.add("Drince");
+		System.out.println(ls.lastIndexOf(ls));
+		Collections.sort(ls);
+		System.out.println(ls);
+		
+		*/
+		
+		for (Employees e:ls)
+		{
+			System.out.println(e.toString());
+		}
+		
+	}
+
+}

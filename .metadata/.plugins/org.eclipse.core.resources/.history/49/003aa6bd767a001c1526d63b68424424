@@ -1,0 +1,9 @@
+package com_bajaj_helloworld;
+
+public class Myset {
+	public static void main(String args[])
+	{
+		System.out.println("Works")
+	}
+
+}

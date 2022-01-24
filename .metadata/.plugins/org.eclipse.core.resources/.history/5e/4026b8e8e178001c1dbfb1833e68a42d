@@ -1,0 +1,38 @@
+package com.bajaj.day3;
+
+class Camera
+{
+	public void printCamera()
+	{
+		System.out.println("16 MP");
+	}
+}
+
+interface Processor
+{
+	public void printProcessor();
+	
+}
+
+
+class Mobile extends Camera implements Processor
+{
+
+	@Override
+	public void printProcessor() {
+		// TODO Auto-generated method stub
+		System.out.println("A5 Chips");
+	}
+	
+}
+
+public class MyInheritance {
+	public static void main(String args[])
+	{
+		System.out.println("hello");
+		Mobile m=new Mobile();
+		m.printCamera();
+		m.printProcessor();
+	}
+
+}

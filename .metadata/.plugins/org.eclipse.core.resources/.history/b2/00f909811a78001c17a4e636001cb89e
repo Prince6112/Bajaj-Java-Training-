@@ -1,0 +1,30 @@
+package com.bajaj.day2;
+
+public class helloworld extends Object {
+	
+	private int a;
+	int b;
+	private static String schoolName="ABC";
+	
+	helloworld(int a,int b)
+	{
+		this.a=a;
+		this.b=b;
+	}
+
+	
+	public void printValue()
+	{
+		System.out.println(schoolName);
+		System.out.println(a);
+		System.out.println(b);
+	}
+	
+	
+	public static void main(String args[])
+	{
+		helloworld helloworldid = new helloworld(10,10);
+		helloworldid.printValue();
+		helloworldid.
+	}
+}

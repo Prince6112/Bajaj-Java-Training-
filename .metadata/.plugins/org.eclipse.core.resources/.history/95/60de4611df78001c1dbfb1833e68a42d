@@ -1,0 +1,11 @@
+package com.bajaj.day3;
+
+
+
+public class MyInheritance {
+	public static void main(String args[])
+	{
+		System.out.println("hello");
+	}
+
+}

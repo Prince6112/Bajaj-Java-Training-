@@ -1,0 +1,22 @@
+package com_bajaj_helloworld;
+
+import java.util.Scanner;
+
+public class Myifelse {
+	public static void main(String args[])
+	{
+		System.out.println("enter a number");
+		Scanner sc=new Scanner(System.in);
+		int number1=sc.nextInt();
+		int number2=sc.nextInt();
+		float f =sc.nextFloat();
+		System.out.println(number1+f);
+		
+		//if(number>0)
+		//{
+			//System.out.println("pos");
+		//}
+				
+	}
+
+}

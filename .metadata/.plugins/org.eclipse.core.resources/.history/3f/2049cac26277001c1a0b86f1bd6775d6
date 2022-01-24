@@ -1,0 +1,18 @@
+package com_bajaj_helloworld;
+
+import java.util.Scanner;
+
+public class Myifelse {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int number=sc.nextInt();
+		System.out.println("enter a number")
+		if(number>10)
+		{
+			System.out.println("pos");
+		}
+				
+	}
+
+}

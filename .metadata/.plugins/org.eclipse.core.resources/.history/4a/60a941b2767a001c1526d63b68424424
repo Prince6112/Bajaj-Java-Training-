@@ -1,0 +1,9 @@
+package com_bajaj_helloworld;
+
+public class MySet {
+	public static void main(String args[])
+	{
+		
+	}
+
+}

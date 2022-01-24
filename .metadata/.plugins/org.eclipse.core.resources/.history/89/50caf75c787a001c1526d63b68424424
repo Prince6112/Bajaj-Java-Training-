@@ -1,0 +1,15 @@
+package com_bajaj_helloworld;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class MySet {
+	public static void main(String args[])
+	{
+		System.out.println("Works");
+		Set<student> student = new HashSet<student>();
+		student.add(new Employees(10,"A"));
+		student.add(new Employees(61,"D"));
+	}
+
+}

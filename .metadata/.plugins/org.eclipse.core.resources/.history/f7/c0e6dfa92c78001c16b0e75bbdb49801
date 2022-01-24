@@ -1,0 +1,46 @@
+package com.bajaj.day2;
+
+class A
+{
+	protected int a;
+	A(int a)
+	{
+		this.a=a;
+	}
+	public void printA()
+	{
+		System.out.println("A class");
+	}
+	A()
+	{
+		this.a=100;
+	}
+	
+}
+
+class B extends A
+{
+	public void printB()
+	{
+		this.a=3000;
+		System.out.println("B class " +a);
+	}
+	B(int a)
+	{
+		super(a);
+	}
+	B()
+	{
+		
+	}
+}
+
+public class MyInheritance {
+	public static void main(String args[])
+	{
+		B obj=new B(1);
+		obj.printA();
+		obj.printB();
+	}
+
+}
